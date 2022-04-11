@@ -6,5 +6,6 @@
 ### Observações:
 
 <li>Como programei poucas vezes em HTML, CSS e JS puro a resolução não ficou 100% completa. </li>
-<li> Além disso a organização do código tambem não ficou boa devido ao tempo que tive </li>
-<li> A responsividade e a exibição de modais não ficaram de acordo com a prposta, mas acredito que o restante da solução atende bem os requisitos do desafio proposto. </li>
+<li> A responsividade e a exibição de modais não ficaram de acordo com a prposta, mas acredito que o restante da solução atende bem os requisitos do desafio proposto.</li>
+<li> As demais funcionalidades estão ok </li>
+<li> A organização do código não ficou como eu gostaria, mas foi feita dentro do possível com o prazo estipulado</li>
