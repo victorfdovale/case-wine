@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Case Wine</title>
+
+    <style>
+        html,
+        body,
+        #root{
+          margin:0;
+          padding:0;
+          width: 100%;
+          min-height: 100vh;
+        }
+      </style>
+    <link rel="stylesheet" href="principal.css" class="css">
+</head>
+<body>
+<div class="body">
+    <div class="header">
+        <div class="headerItens">
+            <h1 class="title">Banner 01</h1>
+        </div>
+
+    </div>
+    <div id="itens">
+        <script>
+            const itens = [
+                {
+                "id": 1,
+                "name": "Janela Branca Special Collection Regional Lisboa 2019",
+                "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26563-01.png",
+                "price": "69,90",
+                "pricePromo": "39,39",
+                "url": "https://www.wine.com.br/vinhos/janela-branca-special-collection-regional-lisboa-2019/prod26563.html"
+                },
+                {
+                "id": 2,
+                "name": "Apothic Red 2019",
+                "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26575-01.png",
+                "price": "159,90",
+                "pricePromo": "109,90",
+                "url": "https://www.wine.com.br/vinhos/apothic-red-2019/prod26575.html"
+                },
+                {
+                "id": 3,
+                "name": "Bear Flag Red Blend 2018",
+                "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/23266-01.png",
+                "price": "94,90",
+                "pricePromo": "49,90",
+                "url": "https://www.wine.com.br/vinhos/bear-flag-red-blend-2018/prod23266.html"
+                },
+                {
+                "id": 4,
+                "name": "V9 Gran Reserva Single Vineyard D.O. Valle del Maipo Carménère 2019",
+                "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/27144-01.png",
+                "price": "169,90",
+                "pricePromo": "79,90",
+                "url": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/27144-01.png"
+                },
+                {
+                "id": 5,
+                "name": "Finca Terra Malbec 2020",
+                "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26904-01.png",
+                "price": "42,90",
+                "pricePromo": "29,90",
+                "url": "https://www.wine.com.br/vinhos/finca-terra-malbec-2020/prod26904.html"
+                }
+            ]
+            iniciarItens = () => {
+                var containerWines = document.getElementById('itens');
+                if (containerWines !== null){
+                     itens.map((wine) => {
+                    containerWines.innerHTML+=`
+                        
+                            <a href="`+wine.url+`"/>
+                            <div class="cards">
+                                <img src = "`+wine.img+`"/> 
+                                <p class='wineName'>`+wine.name+`<p/>
+                                    <p style="text-decoration: line-through">R$`+wine.price+`</p>
+                                    <p class = "pricePromo">R$`+wine.pricePromo+`<p/>
+                                    <button class= 'add'>Adicionar<button/>
+                                </div>
+                            </a>
+                
+
+                    `
+                })
+                }
+               
+            }
+            iniciarItens()
+            const imgs= document.getElementById("img")
+            const img = document.querySelectorAll("#img img")
+        
+
+        </script>
+        
+    </div>
+    <div class="payments">
+        <span>
+            Para aplicar o desconto digite os 6 primeiros dígitosdo seu Cartão Porto Seguro no campo
+         </span>    
+         <span class="cupomText">
+             "cupom de desconto"
+         </span>
+         <span>
+            e aproveite o melhor do mundo do vinho
+         </span>
+         <img src="Payments methods.png" alt="some text" width=600 height=400>
+       
+            
+        
+    </div>
+    <div class="partners">
+        <h3>Como Sócio Wine você possui muitos benefícios</h3>
+        <div>
+            <img src="retangle1.PNG" width="273" height="82">
+            <img src="retangle2.PNG" width="273" height="82">
+            <img src="retangle3.PNG" width="273" height="82">
+            <img src="retangle4.PNG" width="273" height="82">
+        </div>
+    </div>
+    <div class="containerCupom">
+        <div>
+            <h3>Saiba como assinar usando seu cupom</h3>
+        </div>
+        <div class="containerCircles">
+            <div>
+                <img src="circle1.PNG" width="176" height="185">
+                <p>Escolha a WineBox que mais combina com seu paladar.</p>
+            </div>
+            <div>
+                <img src="circle2.PNG" width="176" height="185">
+                <p>Digite os 6 primeiros dígitos de seu cartão Porto Seguro no campo "Possui cupom ou código de indicação"</p>
+            </div>
+            <div>
+                <img src="circle3.PNG" width="176" height="185">
+                <p>Selecione o plano de pagamento mensal.</p>
+            </div>
+            <div>
+                <img src="circle4.PNG" width="176" height="185">
+                <p>Pronto! É só concluir sua assinatura, inserindo seus dados completos.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="wineverso">
+        <div class="wineversoText">
+            <div class="wineversoTextContainer">
+                <img class="imgWineversoPodcast" src = "podcast.PNG" alt="podcast" width="409" height="112.42"> 
+                <p>Fique por dentro dos nossos conteúdos através do Podcast da Wine, o Wineverso. Aproveite para abrir um delicioso vinho e aperte o play para desbravar as curiosidades deste universo com a gente neste período em casa!</p>
+                <div>
+                    <a href='https://open.spotify.com/artist/4fg1JZtagmtm75bxYcZBr1'><img src="spotify.PNG" alt= 'spotify' width="201" height="48.51" ></a>
+                    <a href='https://www.wine.com.br'><img src="deezer.PNG" alt= 'deezer' width="201" height="48.51" ></a>            
+                    <a href='https://www.wine.com.br'><img src="castbox.PNG" alt= 'castbox' width="201" height="48.51" ></a>
+                    <a href='https://www.wine.com.br'><img src="apple.PNG" alt= 'apple' width="201" height="48.51" ></a>
+                </div>
+            </div>
+        </div>
+        <div class="wineversoImg">
+            <img src="wine podcast.png" width="488px" height="488px">
+        </div>
+    </div>
+    
+
+    
+    
+</div>
+
+
+</body>
+</html>

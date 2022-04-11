@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "name": "Janela Branca Special Collection Regional Lisboa 2019",
+    "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26563-01.png",
+    "price": "69,90",
+    "pricePromo": "39,39",
+    "url": "https://www.wine.com.br/vinhos/janela-branca-special-collection-regional-lisboa-2019/prod26563.html"
+    },
+    {
+    "id": 2,
+    "name": "Apothic Red 2019",
+    "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26575-01.png",
+    "price": "159,90",
+    "pricePromo": "109,90",
+    "url": "https://www.wine.com.br/vinhos/apothic-red-2019/prod26575.html"
+    },
+    {
+    "id": 3,
+    "name": "Bear Flag Red Blend 2018",
+    "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/23266-01.png",
+    "price": "94,90",
+    "pricePromo": "49,90",
+    "url": "https://www.wine.com.br/vinhos/bear-flag-red-blend-2018/prod23266.html"
+    },
+    {
+    "id": 4,
+    "name": "V9 Gran Reserva Single Vineyard D.O. Valle del Maipo Carménère 2019",
+    "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/27144-01.png",
+    "price": "169,90",
+    "pricePromo": "79,90",
+    "url": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/27144-01.png"
+    },
+    {
+    "id": 5,
+    "name": "Finca Terra Malbec 2020",
+    "img": "https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/26904-01.png",
+    "price": "42,90",
+    "pricePromo": "29,90",
+    "url": "https://www.wine.com.br/vinhos/finca-terra-malbec-2020/prod26904.html"
+    }
+
+
+]
