@@ -2,6 +2,9 @@
 
 ### Olá ! Essa é a resolução do teste técnico da Wine ! 
 ### Para rodar essa aplicação clone esse repositório, abra sua IDE e depois clique com o botão direito em "principal.html" e execute o arquivo com Live Server
+### ou clique nesse link e veja o projeto rodando : https://case-wine-frontend.surge.sh/
+
+### Esse projeto foi feito usando HTML, CSS e JavaScript
 
 ### Observações:
 
